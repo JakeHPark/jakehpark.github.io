@@ -1,0 +1,7 @@
+title: Jake Park
+url: "https://jakepark.me"
+collections:
+  essays:
+    output: true
+    permalink: /essays/:name/
+markdown: kramdown

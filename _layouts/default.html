@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <link rel="icon" href="/assets/favicon.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <a href="/">Jake Park</a>
+      <nav>
+        <a href="/essays/">Essays</a>
+      </nav>
+    </header>
+
+    {{ content }}
+  </main>
+</body>
+</html>
