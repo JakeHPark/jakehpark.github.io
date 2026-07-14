@@ -12,7 +12,7 @@ Acquiring any skill follows the same process of:
 - emphasising errors and failure modes,
 - and changing one thing at a time when there is a problem.
 
-But there are some habits specific to plumbing that take some time to install, especially when coming mostly from less physical skills like me:
+But there are some habits specific to plumbing that take some time to install, especially for someone like me who comes from music, computer programming, and academic/STEM fields. These are the notes I took throughout my pre-apprenticeship that I found most helpful.
 
 ## Force requirement
 
