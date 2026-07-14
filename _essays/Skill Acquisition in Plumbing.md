@@ -22,7 +22,7 @@ Many tasks require twice as much force or aggressive commitment as I think they 
 - the molten pool needs to be *really* molten;
 - the striker needs a *hard* scratch before it lights up.
 
-It's not like on a musical instrument where too much force just breaks the instrument. Moreover, rigidity/stiffness is often more important than flexibility. When bowing a violin, I have to keep my wrist loose and flexible. When using a hammer, I didn't realise I had to keep my wrist more **rigid/locked**, because the point is maximum force transmission, *not* precision. Rather comically, the correct way to drill in roof screws is to keep yourself rigid and to use your entire bodyweight to just force it in. I lost a lot of time at the beginning of the course looking for more "elegant" solutions.
+It's not like on a musical instrument where too much force just breaks the instrument. Moreover, rigidity/stiffness is often more important than flexibility. When bowing a violin, I have to keep my wrist loose and flexible. When using a hammer, I didn't realise I had to keep my wrist more **rigid/locked**, because the point is maximum force transmission, *not* precision. Rather comically, for instance, the correct way to drill in roof screws is to keep yourself rigid and to use as much of your bodyweight as possible to just force it in. I lost a lot of time at the beginning of the course looking for more "elegant" solutions.
 
 ## Big adjustments
 
@@ -45,9 +45,10 @@ Each tool works best at a certain angle and with a certain geometry. Because we 
 - A hand saw is designed to work best when its entire length is used to cut.
 - Junctions should be oriented such that water coming in from the side does not fight against the direction of the main pipe.
 - Rivets must fit into the holes in *both* sheets before being driven in.
-- The circular saw must be running *before* the blade touches the wood, but you must start the drill *after* you've fully committed with your bodyweight into the target.
+- The circular saw must be running *before* the blade touches the wood,
+- but in contrast, you must start the drill *after* you've fully committed with your bodyweight into the target.
 
-These differences must be memorised by brute force. Although it is often useful to try to understand *why* things are a certain way, in the case of snips and saws, there is basically no deeper reason than they're designed that way, and that's how they work. Much time can be wasted trying to "understand" something on a deeper level that doesn't have a deeper level. Some more examples:
+These differences often need to be memorised by rote. Although it is often useful to try to understand *why* things are a certain way, in the case of snips and saws, there is basically no deeper reason than they're designed that way, and that's how they work. Much time can be wasted trying to "understand" something on a deeper level that doesn't have a deeper level. Some more examples:
 
 - Drilling and riveting work better when the tool is straight and aligned with the desired direction of the fastener.
 - When using the folding machine, it is important to ensure that flaps do not get stuck on the sides of the machine or bump up against other flaps.
