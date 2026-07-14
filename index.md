@@ -5,6 +5,6 @@ title: Home
 
 # Jake Park
 
-Test.
+In construction
 
 [Read essays](/essays/)
