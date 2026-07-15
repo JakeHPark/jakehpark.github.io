@@ -57,19 +57,19 @@ I also found the wide variety of wrench-like tools and terminology confusing:
 - Ordinary pliers have relatively limited jaw opening. Multigrips are the adjustable pliers that we use for a variety of tasks. Like pipe wrenches, these are also serrated.
 - The *duck-bill clamps* are useful for folding, weathering (turning up), and clamping, although other tools such as multigrips may be used for this purpose depending on the geometry. (Confusingly, these differ from duck-bill *pliers*.)
 
-Tool geometry often needs to be memorised by rote. Although it is often useful to try to understand *why* things are a certain way, with these features, there is basically no deeper reason than they're designed that way, and that's how they work. Much time can be wasted trying to "understand" something on a deeper level that doesn't have a deeper level. Some more examples:
+Tool geometry often needs to be memorised by rote. Although it is often useful to try to understand *why* things are a certain way, with these features, there is basically **no deeper reason** than they're designed that way, and that's how they work. Much time can be wasted trying to "understand" something on a deeper level that doesn't have a deeper level. Some more examples:
 
 - Drilling and riveting work better when the tool is straight and aligned with the desired direction of the fastener.
 - When using the folding machine, it is important to ensure that flaps do not get stuck on the sides of the machine or bump up against other flaps.
 - The circular saw must be running *before* the blade touches the wood,
 - but in contrast, you start the drill *after* you've fully committed with your bodyweight into the target.
 
-It is also important to ask: *what needs to move against what, and in what fashion?* No matter how much you adhere to the "correct method", you will keep making ridiculous errors if you do not ask this question:
+It is also important to ask: *what needs to move against what, and in what fashion?* No matter how much you adhere to the Correct Method™, you will keep making ridiculous errors if you do not ask this question:
 
 - It is no use trying to clamp the folding machine down to make a safety fold if the metal is *past* the clamp, which is surprisingly narrow.
 - It is no use trying to seal a flange into a Pittsburgh seam by hammering in the direction that the flange comes out, unless you're manually holding it in from the other end.
 - It is no use hammering something only vaguely in the direction that you want it. For instance, in the case of the Pittsburgh seam, once the seam is partially bent over the flange, change the angle of the hammer and/or the metal to hit it more diagonally.
-- If you need to fold a section that doesn't form a straight line across the entire piece of sheet metal, you should cut slots and use duck-bill clamps instead to isolate the section instead.
+- If you need to fold a section that doesn't form a straight line across the entire piece of sheet metal, you should cut slots and use duck-bill clamps instead to isolate the section instead. The folding machine will *obviously* act on too much of the sheet.
 
 ## Reducing context-switching
 
@@ -77,9 +77,13 @@ The time spent moving around, switching tools, re-measuring, and so on adds up v
 
 ## Positioning/strength
 
-Working against gravity is harder. It is often easier to hammer, braze, or drill from above; it is easier to use a copper cutter closer to your body so your arms aren't dragging you down; it is often helpful to push down on a flaring tool with your whole body for leverage. Change the geometry of the problem to favour you. Clamp it. Brace it. Put timber under it. Move it closer. You want less stuff to keep track of, as few moving parts as possible.
+Working against gravity is harder:
 
-Most of what people call "strength" is actually about *skill* rather than muscle size. Within the middle range, muscle size actually has shockingly little to do with strength/power. Bruce Lee was tiny but had immense power. Working out is only helpful if you're training the correct *skills*—muscle size is nice to have but often unnecessary, and a surprising number of gym exercises are unhelpful in plumbing. For instance, I found active hangs and table rows to be great for rivet guns, saws, and snips, as they train grip strength and pulling endurance. I routinely saw more muscular guys struggle with snips and rivet guns because they didn't understand leverage, or didn't properly train grip strength/endurance.
+- It is often easier to hammer, braze, or drill from above;
+- it is easier to use a copper cutter closer to your body so your extended arms aren't dragging you down;
+- it is often helpful to push down on a flaring tool with your whole body for leverage.
+
+**Change the geometry** of the problem to favour you. Clamp it. Brace it. Put timber under it. Move it closer. You want less stuff to keep track of—as few **moving parts** as possible. Most of what people call "strength" is actually about *skill* rather than muscle size. *Within the middle range*, muscle size actually has shockingly little to do with strength/power. Bruce Lee was tiny but had immense power. Working out is only helpful if you're training the correct *skills*—muscle size is nice to have but often unnecessary, and a surprising number of gym exercises are unhelpful in plumbing. For instance, I found active hangs and table rows to be great for rivet guns, saws, and snips, as they train grip strength and pulling endurance. I routinely saw more muscular guys struggle with snips and rivet guns because they didn't understand leverage, or didn't properly train grip strength/endurance. Again, it's all about **sustainability**. No matter how strong you are, it's better to reduce as much friction as possible throughout the day.
 
 ## Measuring, marking, and Keeping It Straight™
 
@@ -121,7 +125,7 @@ Most "overthinking" is actually a problem of not knowing *which* constraints are
 - A bad fold can also often be fixed with a hammer, or by folding in reverse.
 - A slightly off fit can be hammered together.
 
-A good chef can repair a dish by adding more salt or water or herbs or spices. A good musician can pretend that his mistake wasn't actually a mistake by improvising a different melody. An expert isn't someone who makes no mistakes—this is impossible—but someone who has multiple contingencies for each one. Once you have decided on an improvisation, you **must commit**. If you do something halfway and predictably fail, you have learned nothing about whether it would have worked.
+A good chef can repair a dish by adding more salt or water or herbs or spices. A good musician can pretend that his mistake wasn't actually a mistake by improvising a different melody. An expert isn't someone who makes no mistakes—this is impossible—but someone who has multiple contingencies for each one. Once you have decided on an improvisation, you **must commit**. If you do something halfway and predictably fail, you have learned nothing about whether it would have worked. 
 
 ## Speed
 
