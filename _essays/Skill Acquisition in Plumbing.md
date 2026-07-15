@@ -12,7 +12,7 @@ Acquiring any skill follows the same process of:
 - emphasising errors and failure modes,
 - and changing one thing at a time when there is a problem.
 
-But there are some habits specific to plumbing that take some time to install, especially for someone like me who comes from music, computer programming, and academic/STEM fields. I had to take notes obsessively to stand any chance at catching up to the others with prior tool experience. These are the ones that I found most helpful.
+Another common principle in skill acquisition is that you must **visually track what you're acting on**, not the body part that you are moving. For instance, when learning the piano, you watch the *keys*; when drilling a screw, you watch the *screw*. This is because you can only track success/failure and improve if you're watching the *output*. However, there are some habits specific to plumbing that take some time to install, especially for someone like me who comes from music, computer programming, and academic/STEM fields. I had to take notes obsessively to stand any chance at catching up to the others with prior tool experience. These are the ones that I found most helpful.
 
 ## Force requirement
 
@@ -30,7 +30,7 @@ As a consequence, small adjustments usually make little difference. It's not lik
 
 ## Visual demonstrations
 
-Prior to plumbing I'd never learned any skills that require following visual demos. Violin teachers, for instance, tend to just adjust the instrument on your body rather than showing you. As a result, I didn't realise how useful it can be initially just copy everything more or less exactly as is, from the visuals of the process to the angles to the stance. This often beats just copying the parts I *think* are important. Almost always, that leads to missing something that seems minor in the posture or movement that was actually load-bearing. For instance, when wrapping Teflon around threads, I didn't realise I had to keep it tense by holding it on the inside with my thumb, because I was just copying the demo vaguely instead of precisely. When copying demo projects/photos, it is often worth either copying as many **little details** as possible or asking whether they are relevant. This does *not* mean that official demonstrations are ideal. It means you have to improvise **starting from something that basically works**, *even if* it's imperfect. It's the difference between:
+Prior to plumbing I'd never learned any skills that require following visual demos. Violin teachers, for instance, tend to just adjust the instrument on your body rather than showing you. As a result, I didn't realise how useful it can be initially just copy everything more or less exactly as is, from the visuals of the process to the angles to the stance. This often beats just copying the parts I *think* are important. Almost always, that leads to missing something that seems minor in the posture or movement that was actually load-bearing. For instance, when wrapping Teflon around threads, I didn't realise I had to keep it tense by holding it on the inside with my thumb, because I was just copying the demo vaguely instead of precisely. When copying demo projects/photos, it is often worth either copying as many **little details** as possible or asking whether they are relevant. This does *not* mean that official demonstrations are always ideal. It means you have to improvise **starting from something that basically works**, *even if* it's imperfect. It's the difference between:
 
 - a conspiracy theorist who thinks the Earth is flat (ignoring the standard method and trying to figure stuff out from scratch),
 - and someone who accepts that we have built a shocking amount of infrastructure on the belief that the Earth is roughly round, but then questions measurement errors (accepts the standard method, then figures out what doesn't work in that method).
@@ -64,7 +64,7 @@ Tool geometry often needs to be memorised by rote. Although it is often useful t
 
 - Drilling and riveting work better when the tool is straight and aligned with the desired direction of the fastener.
 - When using the folding machine, it is important to ensure that flaps do not get stuck on the sides of the machine or bump up against other flaps.
-- The circular saw must be running *before* the blade touches the wood,
+- The circular saw must be running *before* the blade touches the wood;
 - but in contrast, you start the drill *after* you've fully committed with your bodyweight into the target.
 
 It is also important to ask: *what needs to move against what, and in what fashion?* No matter how much you adhere to the Correct Method™, you will keep making ridiculous errors if you do not ask this question:
