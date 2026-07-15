@@ -26,7 +26,7 @@ It's not like on a musical instrument where too much force just breaks the instr
 
 ## Big adjustments
 
-As a consequence, small adjustments usually make little difference. It's not like in singing, for instance, where a millimetre-scale difference in tongue position can produce a totally different result. If something isn't working, I need to *double* or even *triple* the force, *change* the tool straight up, or use a *completely* different angle. This kept causing me to repeat the same mistakes over and over because I thought I was changing something but I wasn't. For example, when I was struggling to use a rivet gun, I would try a slightly different angle, and if that failed, I might use slightly higher force. If even that failed, I would run out of ideas. But the actual problem wasn't the variable I was changing, but how *much* I was changing it: I should have *tripled* my force, using both hands, and if that still didn't work, I should have tried *changing* the rivet gun.
+As a consequence, small adjustments usually make little difference. It's not like in singing, for instance, where a millimetre-scale difference in tongue position can produce a totally different result. If something isn't working, I need to *double* or even *triple* the force, *change* the tool straight up, or use a *completely* different angle. This kept causing me to repeat the same mistakes over and over because I thought I was changing something but I wasn't. For example, when I was struggling to use a rivet gun, I would try a slightly different angle, and if that failed, I might use slightly higher force. If even that failed, I would run out of ideas. But the actual problem wasn't the variable I was changing, but how *much* I was changing it: I should have *tripled* my force, using both hands, and if that still didn't work, I should have tried *changing* the rivet gun. Even if a lot of force is required, things shouldn't require a convoluted, heroic struggle. Such overcomplicated struggles, even if they work once, are **unsustainable**—they expend too much cognitive, physical and motivational energy. You should change something. It is like losing weight: fighting against hunger by force every day might work, but it is far more sustainable to eat according to appetite and figure out *why* your appetite is dysregulated.
 
 ## Visual demonstrations
 
@@ -34,30 +34,42 @@ Prior to plumbing I'd never learned any skills that require following visual dem
 
 ## Planning and sequencing
 
-Actions in plumbing are often costly or time-consuming to reverse. **Lower reversibility** means it is more important to spend some time at the beginning chunking the task into smaller parts, and determining which tasks should be performed in what order. It is also paramount to spend some time thinking hard about geometry: what hidden extra lengths might be necessary? Where is length not as important? In contrast, when writing an essay, I can just sort of start chucking things on the page, and if there's a problem I can instantly move stuff around. And when learning a musical piece, the order is already set for me, and I don't have to think about sequencing. This sequencing flexibility inherited from other domains often becomes a bad habit in plumbing.
+Actions in plumbing are often costly or time-consuming to reverse. **Lower reversibility** means it is more important to spend some time at the beginning chunking the task into smaller parts, and determining which tasks should be performed in what order. It is also paramount to spend some time thinking hard about geometry: what hidden extra lengths might be necessary? Where is length not as important? In contrast, when writing an essay or a computer program, I can often just sort of start chucking things on the page, and if there's a problem I can instantly move stuff around. And when learning a musical piece, the order is already set for me, and I don't have to think about sequencing. This sequencing flexibility inherited from other domains often becomes a bad habit in plumbing.
 
 ## Tool geometry
 
 Each tool works best at a certain angle and with a certain geometry. Because we often use the same tools, a tremendous amount of time can be saved by getting this right from the start:
 
-- Aviation snips, for instance, must be kept nearly flat to the sheet, and should not be closed to the tip.
+- Aviation snips, for instance, often work better when kept nearly flat to the sheet, and should not be closed to the tip.
   - They also suck at sharp turns; it is better wherever possible to *curve* when switching directions. This is because the snips need a certain amount of room in the opposite direction to not get stuck, which 90-degree angles do not provide. For especially short cuts at 90 degrees, a slight curve is often acceptable as a compromise.
 - A hand saw is designed to work best when its entire length is used to cut.
 - Junctions should be oriented such that water coming in from the side does not fight against the direction of the main pipe.
 - Rivets must fit into the holes in *both* sheets before being driven in.
-- The circular saw must be running *before* the blade touches the wood,
-- but in contrast, you must start the drill *after* you've fully committed with your bodyweight into the target.
 
-These differences often need to be memorised by rote. Although it is often useful to try to understand *why* things are a certain way, in the case of snips and saws, there is basically no deeper reason than they're designed that way, and that's how they work. Much time can be wasted trying to "understand" something on a deeper level that doesn't have a deeper level. Some more examples:
+I also found the wide variety of wrench-like tools and terminology confusing:
+
+- The terms *wrench* and *spanner* are often interchangeable.
+- The ring spanner is the one with the closed loop. Because it grips all or most sides of the nut or bolt head, it produces a stronger grip.
+- The open-end spanner has a U-shaped jaw that allows you to manoeuvre better in awkward locations or where you can't go all the way around. Often, you use an *adjustable* spanner/wrench, also known as a *shifter*, which is more versatile but more likely to slip.
+- Both the Stillson pipe wrench and the Footprint pipe wrench will chew or mark the surface with serrated jaws, and so are no good for finished chrome or plastic.
+- The Stillson jaw is finely adjusted with a knurled screw wheel. A Footprint has a two-part, scissor-like action: pressure makes it grip harder, and releasing pressure makes it quick to lift and reposition.
+- Using two Footprints in opposite directions is a good way to loosen something that's really stuck. Otherwise, there's nothing **counterholding** the motion on whatever your target is attached to, and the whole assembly may rotate pointlessly instead.
+- Ordinary pliers have relatively limited jaw opening. Multigrips are the adjustable pliers that we use for a variety of tasks. Like pipe wrenches, these are also serrated.
+- The *duck-bill clamps* are useful for folding, weathering (turning up), and clamping, although other tools such as multigrips may be used for this purpose depending on the geometry. (Confusingly, these differ from duck-bill *pliers*.)
+
+Tool geometry often needs to be memorised by rote. Although it is often useful to try to understand *why* things are a certain way, with these features, there is basically no deeper reason than they're designed that way, and that's how they work. Much time can be wasted trying to "understand" something on a deeper level that doesn't have a deeper level. Some more examples:
 
 - Drilling and riveting work better when the tool is straight and aligned with the desired direction of the fastener.
 - When using the folding machine, it is important to ensure that flaps do not get stuck on the sides of the machine or bump up against other flaps.
+- The circular saw must be running *before* the blade touches the wood,
+- but in contrast, you start the drill *after* you've fully committed with your bodyweight into the target.
 
 It is also important to ask: *what needs to move against what, and in what fashion?* No matter how much you adhere to the "correct method", you will keep making ridiculous errors if you do not ask this question:
 
 - It is no use trying to clamp the folding machine down to make a safety fold if the metal is *past* the clamp, which is surprisingly narrow.
 - It is no use trying to seal a flange into a Pittsburgh seam by hammering in the direction that the flange comes out, unless you're manually holding it in from the other end.
 - It is no use hammering something only vaguely in the direction that you want it. For instance, in the case of the Pittsburgh seam, once the seam is partially bent over the flange, change the angle of the hammer and/or the metal to hit it more diagonally.
+- If you need to fold a section that doesn't form a straight line across the entire piece of sheet metal, you should cut slots and use duck-bill clamps instead to isolate the section instead.
 
 ## Reducing context-switching
 
@@ -69,7 +81,7 @@ Working against gravity is harder. It is often easier to hammer, braze, or drill
 
 Most of what people call "strength" is actually about *skill* rather than muscle size. Within the middle range, muscle size actually has shockingly little to do with strength/power. Bruce Lee was tiny but had immense power. Working out is only helpful if you're training the correct *skills*—muscle size is nice to have but often unnecessary, and a surprising number of gym exercises are unhelpful in plumbing. For instance, I found active hangs and table rows to be great for rivet guns, saws, and snips, as they train grip strength and pulling endurance. I routinely saw more muscular guys struggle with snips and rivet guns because they didn't understand leverage, or didn't properly train grip strength/endurance.
 
-## Measuring
+## Measuring, marking, and Keeping It Straight™
 
 Measuring and marking make up much of plumbing. As for tools:
 
@@ -77,16 +89,28 @@ Measuring and marking make up much of plumbing. As for tools:
 - Flat, straight steel rulers are most convenient: with thicker rulers, it is harder to mark precisely because the measurement is higher up.
 - Foldable rulers are a pain. They are annoying to straighten, and often don't stay straight. Get a flat, sturdy foldable ruler, ideally where the circle in the middle doesn't interfere with marking.
 
-Some tips:
+Some tips on marking:
 
 - Try to measure from the same datum wherever possible: if you need to measure 150 mm to the right, then another 100 mm to the right of that, measure 250 from the datum rather than 100 mm from the first marking. Measurement errors add up.
 - When trying to mark long lengths, make sure to physically hold down one end of the ruler so that it doesn't move while you adjust the other.
 - If possible, to compensate for real-world deviation, when marking something out to fit some other object, it is better to use that object as a direct reference rather than going by the book.
 - When marking a straight line, it is often possible to avoid marking out the whole line: when using the guillotine or folding machine, you only really need a small mark on either side, as the machine provides the straight line for you.
 - When trimming sheet metal to fit against an existing angle, you can usually sight the angle and cut a roughly matching line rather than marking precise start and end points.
-- Same goes for the folding machine: you can roughly eyeball 90 degrees from the bottom of the folding machine rather than overthinking it.
 
-It is helpful to mark out the lengths on the pieces you have cut. You may also mark out things like the waste side, purpose, and anything else that helps to reduce the load on your working memory. There is no harm in taking longer to double-check your markings and making sure their purpose is really obvious. For example, if you're cutting sheet metal with a guillotine, mark with big arrows the ends you want to cut through, and make sure they're in the right place. Confirm orientation, direction, location, and so on. Unless you have a perfect photographic memory, all of this saves a tremendous amount of time, and you won't have to constantly redo your work.
+Some tips on procedure:
+
+- It is helpful to mark out the lengths on the pieces you have cut.
+- You may also mark out things like the waste side, purpose, and anything else that helps to reduce the load on your working memory.
+- There is no harm in taking longer to double-check your markings and making sure their purpose is really obvious.
+- For example, if you're cutting sheet metal with a guillotine, mark with big arrows the ends you want to cut through, and make sure they're in the right place.
+- Confirm orientation, direction, location, and so on.
+
+Unless you have a perfect photographic memory, all of this saves a tremendous amount of time, and you won't have to constantly redo your work. Finally, some tips on Keeping It Straight™:
+
+- **Implicit references** are the neglected hidden variable. For instance, when folding 90 degrees on the folding machine, instead of overthinking it, you can use the machine bed or any other level surface as a *reference*.
+- When trying to drill multiple holes in a straight line, you may be able to just eyeball a short distance from a common *reference line*, such as a fold or some other visible feature.
+- When checking whether multiple objects are in a straight line, the first and last object are the implicit reference. Everything must be on a straight line in between.
+- Often, straightness is more about *visuals* than function. In such cases, millimetre-grade precision may be unnecessary. Just choose an implicit reference and eyeball it—if you can't notice any major issue, neither will anyone else.
 
 ## Improvisation
 
