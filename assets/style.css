@@ -60,6 +60,12 @@ time {
 	color: var(--muted);
 }
 
+.license {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
