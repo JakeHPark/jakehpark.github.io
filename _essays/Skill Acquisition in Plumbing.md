@@ -12,7 +12,7 @@ Acquiring any skill follows the same process of:
 - emphasising errors and failure modes,
 - and changing one thing at a time when there is a problem.
 
-Another common principle in skill acquisition is that you must **visually track what you're acting on**, not the body part that you are moving. For instance, when learning the piano, you watch the *keys*; when drilling a screw, you watch the *screw*. This is because you can only track success/failure of the output and improve if you're *watching* the output. However, there are some habits specific to plumbing that take some time to install, especially for someone like me who comes from music/STEM. This is a summary of what was obvious to those with prior experience but for me needed conscious explanation.
+Another common principle in skill acquisition is that you must **visually track what you're acting on**, not the body part that you are moving. For instance, when learning the piano, you watch the *keys*; when drilling a screw, you watch the *screw*. This is because you can only track success/failure of the output and improve if you're *watching* the output. However, there are some habits specific to plumbing that take some time to install, especially for someone like me who comes from music/STEM. Though basic algebra, geometry, trigonometry, and mental arithmetic were helpful from time to time—and I do recommend learning these—there was relatively little transfer. This is a summary of what was obvious to those with prior experience but for me needed conscious explanation.
 
 ## Force requirement
 
