@@ -1,5 +1,6 @@
 title: Jake Park
 url: "https://jakepark.me"
+timezone: Australia/Melbourne
 collections:
   essays:
     output: true
