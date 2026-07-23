@@ -76,26 +76,28 @@ article :is(h2, h3, h4, h5, h6) {
   scroll-margin-top: 2rem;
 }
 
-article :is(h2, h3, h4, h5, h6) > a:first-child:empty {
+.heading-link {
   position: absolute;
   right: 100%;
-  width: 1.25em;
+  margin-right: 0.4rem;
 
   color: inherit;
-  text-align: center;
   text-decoration: none;
   opacity: 0;
 }
 
-article :is(h2, h3, h4, h5, h6) > a:first-child:empty::before {
-  content: "#";
-}
-
-article :is(h2, h3, h4, h5, h6):hover > a:first-child:empty,
-article :is(h2, h3, h4, h5, h6) > a:first-child:empty:focus {
+article :is(h2, h3, h4, h5, h6):hover > .heading-link,
+.heading-link:focus-visible {
   opacity: 0.45;
 }
 
-article :is(h2, h3, h4, h5, h6) > a:first-child:empty:hover {
+.heading-link:hover {
   opacity: 1;
+}
+
+/* Phones and other devices without hover */
+@media (hover: none) {
+  .heading-link {
+    opacity: 0.4;
+  }
 }
