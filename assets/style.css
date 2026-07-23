@@ -71,33 +71,63 @@ img {
 	height: auto;
 }
 
-article :is(h2, h3, h4, h5, h6) {
+article h2[id],
+article h3[id],
+article h4[id],
+article h5[id],
+article h6[id] {
   position: relative;
   scroll-margin-top: 2rem;
 }
 
-.heading-link {
+article .heading-link {
   position: absolute;
-  right: 100%;
-  margin-right: 0.4rem;
+  top: 0.15em;
+  left: -1.35em;
 
-  color: inherit;
-  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+
+  color: inherit !important;
+  text-decoration: none !important;
+
   opacity: 0;
+  pointer-events: none;
+
+  filter: grayscale(1);
+  transition: opacity 120ms ease;
 }
 
-article :is(h2, h3, h4, h5, h6):hover > .heading-link,
-.heading-link:focus-visible {
-  opacity: 0.45;
+article .heading-link::before {
+  content: "🔗";
+  font-size: 0.55em;
 }
 
-.heading-link:hover {
-  opacity: 1;
+/* Mouse/trackpad: reveal while hovering over the heading */
+@media (hover: hover) {
+  article h2[id]:hover > .heading-link,
+  article h3[id]:hover > .heading-link,
+  article h4[id]:hover > .heading-link,
+  article h5[id]:hover > .heading-link,
+  article h6[id]:hover > .heading-link,
+  article .heading-link:focus-visible {
+    opacity: 0.28;
+    pointer-events: auto;
+  }
+
+  article .heading-link:hover {
+    opacity: 0.75;
+  }
 }
 
-/* Phones and other devices without hover */
+/* Touchscreen: reveal after tapping the heading */
 @media (hover: none) {
-  .heading-link {
-    opacity: 0.4;
+  article .heading-link-visible > .heading-link,
+  article .heading-link:focus-visible {
+    opacity: 0.3;
+    pointer-events: auto;
   }
 }
