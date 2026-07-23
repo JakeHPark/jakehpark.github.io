@@ -70,3 +70,32 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+article :is(h2, h3, h4, h5, h6) {
+  position: relative;
+  scroll-margin-top: 2rem;
+}
+
+article :is(h2, h3, h4, h5, h6) > a:first-child:empty {
+  position: absolute;
+  right: 100%;
+  width: 1.25em;
+
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0;
+}
+
+article :is(h2, h3, h4, h5, h6) > a:first-child:empty::before {
+  content: "#";
+}
+
+article :is(h2, h3, h4, h5, h6):hover > a:first-child:empty,
+article :is(h2, h3, h4, h5, h6) > a:first-child:empty:focus {
+  opacity: 0.45;
+}
+
+article :is(h2, h3, h4, h5, h6) > a:first-child:empty:hover {
+  opacity: 1;
+}
