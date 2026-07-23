@@ -26,32 +26,52 @@ layout: default
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const headings = document.querySelectorAll(
-      "article h2[id], article h3[id], article h4[id], article h5[id], article h6[id]"
-    );
+    const selector =
+      "article h2[id], article h3[id], article h4[id], " +
+      "article h5[id], article h6[id]";
+
+    const headings = document.querySelectorAll(selector);
+    const touchDevice = window.matchMedia("(hover: none)").matches;
 
     headings.forEach((heading) => {
-      const href = `#${heading.id}`;
+      const label = heading.textContent.trim();
 
-      let link = Array.from(heading.children).find(
-        (child) =>
-          child.tagName === "A" &&
-          child.getAttribute("href") === href
-      );
+      const link = document.createElement("a");
+      link.className = "heading-link";
+      link.href = `#${heading.id}`;
+      link.setAttribute("aria-label", `Link to ${label}`);
+      link.title = "Link to this section";
 
-      if (!link) {
-        link = document.createElement("a");
-        link.href = href;
-        heading.prepend(link);
+      // The emoji is supplied by CSS, so it does not pollute the heading text.
+      heading.prepend(link);
+
+      if (touchDevice) {
+        heading.addEventListener("click", (event) => {
+          // Let the permalink itself work normally.
+          if (event.target.closest(".heading-link")) {
+            return;
+          }
+
+          headings.forEach((otherHeading) => {
+            if (otherHeading !== heading) {
+              otherHeading.classList.remove("heading-link-visible");
+            }
+          });
+
+          heading.classList.toggle("heading-link-visible");
+        });
+      }
+    });
+
+    // Hide the mobile icon after tapping elsewhere.
+    document.addEventListener("click", (event) => {
+      if (!touchDevice || event.target.closest(selector)) {
+        return;
       }
 
-      link.classList.add("heading-link");
-      link.textContent = "#";
-      link.setAttribute(
-        "aria-label",
-        `Link to ${heading.textContent.replace(/^#/, "").trim()}`
-      );
-      link.title = "Link to this section";
+      headings.forEach((heading) => {
+        heading.classList.remove("heading-link-visible");
+      });
     });
   });
 </script>
