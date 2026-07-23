@@ -4,15 +4,54 @@ layout: default
 
 <article>
   <h1>{{ page.title }}</h1>
+
   {% if page.subtitle %}
     <p class="subtitle">{{ page.subtitle }}</p>
   {% endif %}
+
   {{ content }}
+
   <p class="license">
     <em>
       This work is licensed under a
-      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-         rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+      <a
+        href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+        rel="license"
+      >
+        Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+      </a>.
     </em>
   </p>
 </article>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const headings = document.querySelectorAll(
+      "article h2[id], article h3[id], article h4[id], article h5[id], article h6[id]"
+    );
+
+    headings.forEach((heading) => {
+      const href = `#${heading.id}`;
+
+      let link = Array.from(heading.children).find(
+        (child) =>
+          child.tagName === "A" &&
+          child.getAttribute("href") === href
+      );
+
+      if (!link) {
+        link = document.createElement("a");
+        link.href = href;
+        heading.prepend(link);
+      }
+
+      link.classList.add("heading-link");
+      link.textContent = "#";
+      link.setAttribute(
+        "aria-label",
+        `Link to ${heading.textContent.replace(/^#/, "").trim()}`
+      );
+      link.title = "Link to this section";
+    });
+  });
+</script>
