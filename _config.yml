@@ -6,3 +6,6 @@ collections:
     output: true
     permalink: /essays/:name/
 markdown: kramdown
+kramdown:
+  auto_ids: true
+  header_links: true
