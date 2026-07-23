@@ -12,7 +12,9 @@ Acquiring any skill follows the same process of:
 - emphasising errors and failure modes,
 - and changing one thing at a time when there is a problem.
 
-Another common principle in skill acquisition is that you must **pay most attention to what you're acting on**, not the body part that you are moving. For instance, when learning the piano, you focus on the *sound*, and often watch the *keys*; when drilling a screw into an object, you watch the *screw* and the *object*. This is because you can only track success/failure of the output and improve if you're *watching* the output. However, there are some habits specific to plumbing that take some time to install, especially for someone like me who comes from music/STEM. Though basic algebra, geometry, trigonometry, and mental arithmetic were helpful from time to time—and I do recommend learning these—there was relatively little transfer. This is a summary of what was obvious to those with prior experience but for me needed deliberate attention. I hate the modern narcissism of pretending I've come up with anything on my own; all of my notes are simply a convenient rewriting of other people's ideas, from my instructors' remarks to the hundreds of books I've read.
+Another common principle in skill acquisition is that you must **pay most attention to what you're acting on**, not the body part that you are moving. For instance, when learning the piano, you focus on the *sound*, and often watch the *keys*; when drilling a screw into an object, you watch the *screw* and the *object*. This is because you can only track success/failure of the output and improve if you're *watching* the output. However, there are some habits specific to plumbing that take some time to install, especially for someone like me who comes from music/STEM. Though basic algebra, geometry, trigonometry, and mental arithmetic were helpful from time to time—and I do recommend learning these—there was relatively little transfer. This is a very long cheatsheet covering what was obvious to those with prior experience but for me needed deliberate attention.
+
+I hate the modern narcissism of pretending I've come up with anything on my own; all of my notes are simply a convenient rewriting of other people's ideas, from my instructors' remarks to the hundreds of books I've read. Even if instructors will tell you much of this at one point or another, it is still useful to have it written down and organised like this. Reading notes can direct you better in reality, and real experience can help you understand notes better. Notes may tell you that you should drill straight; trying to drill straight might make you realise that angles can be awkward; notes may then tell you how to position yourself better, and so on. I do not like it when people pretend that writing/theory is useless, just as I do not like it being seen as superior to the practical reality that it refers to.
 
 ## Force requirement
 
@@ -28,6 +30,8 @@ Part of the issue was that I was unsure how much force was allowable. I needed t
 
 - experimenting with roundabout timings often just leads to an angry honk;
 - and using too much force on the drill just causes marring.
+
+Make an effort to map out **acceptable failures** (sheet metal bent out of shape) and **catastrophic failures** (finger crushed in guillotine) so that you aren't afraid to experiment.
 
 ## Big adjustments
 
@@ -67,6 +71,7 @@ I also found the wide variety of gripping tools confusing:
 - The open-end spanner has a U-shaped jaw that allows you to manoeuvre better in awkward locations or where you can't go all the way around. Often, you use an *adjustable/shifting* spanner/wrench, also known as a *shifter*, which is more versatile but more likely to slip.
 - Both the Stillson pipe wrench and the Footprint pipe wrench will chew or mark the surface with serrated jaws, and so are no good for finished chrome or plastic.
 - The Stillson jaw is finely adjusted with a knurled screw wheel. A Footprint has a two-part, scissor-like action: pressure makes it grip harder, and releasing pressure makes it quick to lift and reposition.
+- A Stillson should not be wound down like a vice. Set it around the pipe with some clearance. When you pull in the correct direction, the floating hook jaw cams inward and the teeth bite.
 - Using two Footprints in opposite directions is a good way to loosen something that's really stuck. Otherwise, there's nothing **counterholding** the motion on whatever your target is attached to, and the whole assembly may rotate pointlessly instead.
 - Ordinary pliers have relatively limited jaw opening. Multigrips are the adjustable pliers that we use for a variety of tasks. Like pipe wrenches, these are also serrated.
 - The *duck-bill clamps* are useful for folding, weathering (turning up), and clamping, although other tools such as multigrips may be used for this purpose depending on the geometry. (Confusingly, these differ from duck-bill *pliers*.)
@@ -74,6 +79,7 @@ I also found the wide variety of gripping tools confusing:
 Tool geometry often needs to be memorised by rote. Although it is often useful to try to understand *why* things are a certain way, with these features, there is basically **no deeper reason** than they're designed that way, and that's how they work. Much time can be wasted trying to "understand" something on a deeper level that doesn't have a deeper level. For example:
 
 - Drilling, riveting, hammering and fastening in general work better when the tool is straight and aligned with the desired direction of the fastener.
+- The SharkBite remover works best when you push the *open* end hard into the release collar (the ring at the opening of a SharkBite fitting that surrounds the pipe) and pull the pipe out **as straight as possible**. Any pulling force *not* in the straight direction is wasted.
 - The circular saw must be running *before* the blade touches the wood;
 - but in contrast, you start the drill *after* you've committed with your bodyweight into the target.
 
@@ -89,7 +95,7 @@ Some further tips on drilling:
 
 - Make sure the drill bit is fastened by manually tightening the chuck clockwise.
 - It is no use trying to drill somewhere where the chuck will get caught on the wall or some other obstacle, or make you unable to aim straight. Pull out the drill bit a little, or use a longer drill bit.
-- If the drill keeps failing to produce any movement, try to keep it straighter as the screw moves around. Especially if you're pulling out a screw that was drilled in at an angle, you have to keep tracking the fluctuating direction of the drill.
+- If the drill keeps failing to produce any movement, try to keep it straighter as the screw moves around. Especially if you're pulling out a screw that was drilled in at an angle, you have to keep tracking the fluctuating direction of the screw.
 
 ## Reducing context-switching
 
