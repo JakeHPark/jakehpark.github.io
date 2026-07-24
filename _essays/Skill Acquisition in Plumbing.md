@@ -76,7 +76,7 @@ Tool geometry often needs to be memorised by rote. Although it is often useful t
 Most people have heard *"righty tighty, lefty loosey"*, but:
 
 - This is because most threads are right-hand threads. Why? **Because they just are.**
-- *Righty tighty* is usually referenced looking straight along the fastener's axis **from the side where the tool is designed to be applied.**
+- *Righty tighty* is usually referenced looking straight along the fastener's axis **from the side which you are observing and turning the rotating part.**
 - When screwing nuts, I found it helpful to imagine it this way: If I wanted to loosen it from whatever was above, I would turn it clockwise *from above* to "tighten" it into whatever (if anything) was below. If I wanted to tighten it to whatever was above, I would turn it counterclockwise *from above* to "loosen" it from whatever was below.
 
 It is also important to ask: *what needs to move against what, and in what fashion?* No matter how much you adhere to the Correct Method™, you will keep making ridiculous errors if you do not ask this question:
