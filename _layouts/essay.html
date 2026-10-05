@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<article>
+  <h1>{{ page.title }}</h1>
+
+  {% if page.subtitle %}
+    <p class="subtitle">{{ page.subtitle }}</p>
+  {% endif %}
+
+  {{ content }}
+
+  <p class="license">
+    <em>
+      This work is licensed under a
+      <a
+        href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+        rel="license"
+      >Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+    </em>
+  </p>
+</article>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const selector =
+      "article h2[id], article h3[id], article h4[id], " +
+      "article h5[id], article h6[id]";
+
+    const headings = document.querySelectorAll(selector);
+    const touchDevice = window.matchMedia("(hover: none)").matches;
+
+    headings.forEach((heading) => {
+      const label = heading.textContent.trim();
+
+      const link = document.createElement("a");
+      link.className = "heading-link";
+      link.href = `#${heading.id}`;
+      link.setAttribute("aria-label", `Link to ${label}`);
+      link.title = "Link to this section";
+
+      // The emoji is supplied by CSS, so it does not pollute the heading text.
+      heading.prepend(link);
+
+      if (touchDevice) {
+        heading.addEventListener("click", (event) => {
+          // Let the permalink itself work normally.
+          if (event.target.closest(".heading-link")) {
+            return;
+          }
+
+          headings.forEach((otherHeading) => {
+            if (otherHeading !== heading) {
+              otherHeading.classList.remove("heading-link-visible");
+            }
+          });
+
+          heading.classList.toggle("heading-link-visible");
+        });
+      }
+    });
+
+    // Hide the mobile icon after tapping elsewhere.
+    document.addEventListener("click", (event) => {
+      if (!touchDevice || event.target.closest(selector)) {
+        return;
+      }
+
+      headings.forEach((heading) => {
+        heading.classList.remove("heading-link-visible");
+      });
+    });
+  });
+</script>

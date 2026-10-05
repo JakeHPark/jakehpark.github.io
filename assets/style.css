@@ -1,0 +1,156 @@
+:root {
+	color-scheme: light dark;
+	--bg: #fafafa;
+	--fg: #111;
+	--muted: #666;
+	--line: #ddd;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #111;
+		--fg: #eee;
+		--muted: #aaa;
+		--line: #333;
+	}
+}
+
+body {
+	margin: 0;
+	background: var(--bg);
+	color: var(--fg);
+	font:
+		18px / 1.6 system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		"Segoe UI",
+		sans-serif;
+}
+
+main {
+	max-width: 720px;
+	margin: 0 auto;
+	padding: 2rem 1rem 5rem;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid var(--line);
+	margin-bottom: 3rem;
+	padding-bottom: 0.75rem;
+}
+
+a {
+	color: inherit;
+}
+
+nav a {
+	margin-left: 1rem;
+}
+
+h1,
+h2,
+h3 {
+	line-height: 1.2;
+}
+
+article h2 {
+	margin-top: 2.5rem;
+	margin-bottom: 1rem;
+	padding-bottom: 0.3rem;
+	border-bottom: 1px solid var(--line);
+}
+
+.subtitle,
+time {
+	color: var(--muted);
+}
+
+blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--line);
+  color: var(--fg);
+  text-align: left;
+}
+
+blockquote > :first-child {
+  margin-top: 0;
+}
+
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.license {
+	margin-top: 3rem;
+	font-size: 0.9rem;
+	opacity: 0.75;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+article h2[id],
+article h3[id],
+article h4[id],
+article h5[id],
+article h6[id] {
+	position: relative;
+	scroll-margin-top: 2rem;
+}
+
+article .heading-link {
+	position: absolute;
+	top: 0.15em;
+	left: -1.35em;
+
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 1em;
+	height: 1em;
+
+	color: inherit !important;
+	text-decoration: none !important;
+
+	opacity: 0;
+	pointer-events: none;
+
+	filter: grayscale(1);
+	transition: opacity 120ms ease;
+}
+
+article .heading-link::before {
+	content: "🔗";
+	font-size: 0.55em;
+}
+
+/* Mouse/trackpad: reveal while hovering over the heading */
+@media (hover: hover) {
+	article h2[id]:hover > .heading-link,
+	article h3[id]:hover > .heading-link,
+	article h4[id]:hover > .heading-link,
+	article h5[id]:hover > .heading-link,
+	article h6[id]:hover > .heading-link,
+	article .heading-link:focus-visible {
+		opacity: 0.28;
+		pointer-events: auto;
+	}
+
+	article .heading-link:hover {
+		opacity: 0.75;
+	}
+}
+
+/* Touchscreen: reveal after tapping the heading */
+@media (hover: none) {
+	article .heading-link-visible > .heading-link,
+	article .heading-link:focus-visible {
+		opacity: 0.3;
+		pointer-events: auto;
+	}
+}

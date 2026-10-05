@@ -1,0 +1,11 @@
+title: Jake Park
+url: "https://jakepark.me"
+timezone: Australia/Melbourne
+collections:
+  essays:
+    output: true
+    permalink: /essays/:path/
+markdown: kramdown
+kramdown:
+  auto_ids: true
+  header_links: true
